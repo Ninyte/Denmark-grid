@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "name": "luftledninger",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-001",
+        "name": "Fredericia–Odense Øst",
+        "status": "Available"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.756,
+            55.565
+          ],
+          [
+            10.437,
+            55.401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-002",
+        "name": "Odense Øst–Aarhus Syd",
+        "status": "Maintenance"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.437,
+            55.401
+          ],
+          [
+            10.183,
+            56.129
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-003",
+        "name": "Fredericia–Esbjerg Nord",
+        "status": "Unavailable"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.756,
+            55.565
+          ],
+          [
+            8.45,
+            55.51
+          ]
+        ]
+      }
+    }
+  ]
+}
